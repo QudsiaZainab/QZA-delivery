@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.container-fluid {
+    padding-left: 10px;
+}
+
+.navbar {
+    padding-left: 10vh;
+}
+
+
+.text-center {
+    margin-top: 50px;
+    text-align: center !important;
+}
+
+.btn-primary {
+    margin: 10px;
+}
+
+.frgt-pssword {
+    color: black;
+}
+
+.frgt-pssword:hover {
+    color: blue;
+}
+
+#reg {
+    text-decoration: none;
+    color: white;
+}
+
+.signin {
+    margin-left: 0vh;
+}
+
+.signup {
+    margin-left: 0vh;
+}
+
+#message {
+    font-size: 8;
+    color: rgb(243, 11, 11);
+}

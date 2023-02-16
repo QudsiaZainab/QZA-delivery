@@ -1,0 +1,40 @@
+.nav-item
+{
+    padding: 0 10px;
+}
+.container-fluid
+{
+    padding-left: 10px;
+}
+.navbar
+{
+    padding-left: 10vh;
+}
+
+.heading{
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#confirm_order{
+    margin-left: 50vh;
+    margin-bottom: 10vh;
+    /* width: 20vh; */
+}
+
+.content
+{
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+button:hover
+{
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+img{
+    width: 15vh;
+    height: 10vh;
+  }

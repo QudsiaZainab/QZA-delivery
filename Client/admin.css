@@ -1,0 +1,85 @@
+/* body{
+    
+} */
+.navbar
+{
+    padding-left: 10vh;
+}
+.nav-item
+{
+    padding: 0 10px;
+}
+.container-fluid
+{
+    padding-left: 10px;
+}
+
+.text-center {
+    margin-top:50px ;
+  text-align: center!important;
+}
+.btn-primary
+{
+  margin: 10px;
+}
+.frgt-pssword
+{
+  color: black;
+}
+.frgt-pssword:hover{
+  color: blue;
+}
+#reg{
+  text-decoration: none;
+  color: white;
+}
+.signin{
+  margin-left: 0vh;
+}
+.signup{
+  margin-left: 0vh;
+}
+#message
+{
+  font-size: 8;
+  color: rgb(243, 11, 11);
+}
+
+
+#fm{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+input,
+  select {
+    margin: 10px;
+    width: 300px;
+  }
+
+  .get{
+      margin-bottom: 2vh;
+  }
+
+#add-menu-btn{
+  margin-bottom: 7vh;
+}
+
+button:hover
+{
+    background-color: rgba(128, 128, 128, 0.507);
+}
+h2{
+    /* color: white; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+  width: 15vh;
+  height: 10vh;
+}

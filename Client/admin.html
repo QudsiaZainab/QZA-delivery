@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "admin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="icon" href = "QZA_Delivery-removebg-preview.png">
+    <title>Admin</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary" href="#">QZADelivery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+          <li hidden id = "LogOut" class="nav-item">
+            <a class="nav-link" id = "lgout bg-danger" href="">LogOut</a>
+        </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class = "text-center container">
+        <main class="form-signin">
+          <form id = "signin">
+            <h2 class="h3 mb-3 fw-normal">Please sign in</h2>
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+              <!-- <message id = "message" ></message> -->
+            </div>
+            <message id = "message" ></message>
+
+            <button class="w-100 btn btn-lg btn-primary signin" type="submit" id = "submit"  >Sign in</button>
+          </form>
+        </main>
+      </div>
+
+    <div id = "fm">
+        <header>
+            <h2>Add Menu</h2>
+        </header>
+      <div id = "form">
+        <section id="insertData">
+            <label><b>Name:</b></label>
+            <input type="text" class = "get" id="name-input"> <br>
+            <label><b>Image-link:</b></label>
+            <input type="text" class = "get" id="image-input"> <br>
+            <label><b>Price:</b></label>
+            <input type="text" class = "get" id="price-input"> <br>
+    
+    
+            <button id="add-menu-btn">Add Menu</button>
+    
+    </section>
+</div>
+<div>
+  <h2>Menu</h2>
+  <table class="table table2">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Image</th>
+        <th scope="col">Price</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    </table>
+</div>
+
+<div><br><br>
+  <h2>Orders</h2>
+  <table class="table table1">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Item_name</th>
+        <th scope="col">Image</th>
+        <th scope="col">Price</th>
+        <th scope="col">Total Bill</th>
+        <th scope="col">Process Order</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    </table>
+</div>
+</body>
+<script src = "admin.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</html>

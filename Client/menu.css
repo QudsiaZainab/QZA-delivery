@@ -1,0 +1,43 @@
+.nav-item
+{
+    padding: 0 10px;
+}
+.container-fluid
+{
+    padding-left: 10px;
+}
+.navbar
+{
+    padding-left: 10vh;
+}
+
+
+  .content
+  {
+    /* margin-top: 8vh; */
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+  }
+
+  .heading{
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover
+{
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+img{
+  width: 15vh;
+  height: 10vh;
+}
